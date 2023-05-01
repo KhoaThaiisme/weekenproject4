@@ -37,7 +37,9 @@ class Hand:
             value += card
 
         if ace + card <= 21:
-            
+            ace == 10
+
+        return value
 
 
 class Player:
